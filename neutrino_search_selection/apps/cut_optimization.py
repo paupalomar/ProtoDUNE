@@ -17,7 +17,6 @@ from libs import *
 from name_index_association import *
 
 
-
 parser = argparse.ArgumentParser(description='Process some integers.')
 parser.add_argument('-j', type=str, help='the json file with the parameters')
 args = parser.parse_args()
