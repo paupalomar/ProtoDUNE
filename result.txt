@@ -1,0 +1,4 @@
+Initializing timing benchmark
+['imageU1', 'imageV1', 'imageZ1', 'imageU2', 'imageV2', 'imageZ2', 'imageU3', 'imageV3', 'imageZ3', 'imageU4', 'imageV4', 'imageZ4']
+Process completed. Total time: 2.9212260246276855 seconds, which is 0.048687100410461426 minutes
+U1 size is: 2500000
