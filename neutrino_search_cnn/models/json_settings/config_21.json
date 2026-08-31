@@ -1,0 +1,18 @@
+{
+    "data_info": {
+        "train_split": 0.7,
+        "val_split": 0.15,
+        "test_split": 0.15,
+        "batch_size": 8,
+        "mc_train_sampling": 0.3,
+        "bkg_train_sampling": 0.7,
+        "mc_val_sampling": 0.04,
+        "bkg_val_sampling": 0.96,
+        "mc_test_sampling": 0.04,
+        "bkg_test_sampling": 0.96
+    },
+    "class_weights_train":{
+        "0": 0.714,
+        "1": 1.666
+    }
+}

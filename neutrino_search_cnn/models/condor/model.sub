@@ -1,0 +1,13 @@
+executable = model.sh
+
+output          = /afs/cern.ch/work/p/ppalomar/neutrino_search_cnn/logs/model_$(ClusterId).out
+error           = /afs/cern.ch/work/p/ppalomar/neutrino_search_cnn/logs/model_$(ClusterId).err
+log             = /afs/cern.ch/work/p/ppalomar/neutrino_search_cnn/logs/model_$(ClusterId).log
+
+request_cpus = 1
+request_gpus = 1
+request_memory = 8GB
+
++JobFlavour = "workday"
+
+queue
